@@ -91,7 +91,7 @@ app.Run();
 
 ```
 
-### Kết quả đạt được
+## Kết quả đạt được
 
 Khi chạy dự án bằng cách nhấn **F5** hoặc chọn **Start**, ứng dụng sẽ khởi chạy trên địa chỉ mặc định được hiển thị trên trình duyệt:  
 **URL**: `https://localhost:7222/swagger/index.html`  
@@ -103,7 +103,7 @@ Khi chạy dự án bằng cách nhấn **F5** hoặc chọn **Start**, ứng d�
 - **PUT /api/books/{id}**: Cập nhật thông tin của sách bằng cách cung cấp `id` và thông tin mới.
 - **DELETE /api/books/{id}**: Xóa một sách cụ thể theo `id`.
 
-### Cách sử dụng Swagger UI
+## Cách sử dụng Swagger UI
 - Mở một phương thức bằng cách nhấp vào thanh tiêu đề (ví dụ: **GET /api/books**).
 - Nhấn vào nút **Try it out** để thử nghiệm trực tiếp.
 - Nhập giá trị cần thiết (nếu có) và nhấn **Execute** để gửi yêu cầu.
