@@ -88,3 +88,23 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();
 app.Run();
+
+### Kết quả đạt được
+
+Khi chạy dự án bằng cách nhấn **F5** hoặc chọn **Start**, ứng dụng sẽ khởi chạy trên địa chỉ mặc định được hiển thị trên trình duyệt:  
+**URL**: `https://localhost:7222/swagger/index.html`  
+
+**Giao diện Swagger UI** cung cấp tài liệu cho API với các endpoint chính như trong hình. Mỗi endpoint tương ứng với một hành động CRUD cho đối tượng `Book`:
+- **GET /api/books**: Truy vấn danh sách tất cả các sách từ cơ sở dữ liệu.
+- **POST /api/books**: Thêm một sách mới bằng cách nhập dữ liệu mẫu.
+- **GET /api/books/{id}**: Lấy thông tin một sách cụ thể thông qua `id` của sách.
+- **PUT /api/books/{id}**: Cập nhật thông tin của sách bằng cách cung cấp `id` và thông tin mới.
+- **DELETE /api/books/{id}**: Xóa một sách cụ thể theo `id`.
+
+### Cách sử dụng Swagger UI
+- Mở một phương thức bằng cách nhấp vào thanh tiêu đề (ví dụ: **GET /api/books**).
+- Nhấn vào nút **Try it out** để thử nghiệm trực tiếp.
+- Nhập giá trị cần thiết (nếu có) và nhấn **Execute** để gửi yêu cầu.
+- Xem kết quả phản hồi trong phần **Responses**.
+
+> Lưu ý: Các phương thức có tham số `id` yêu cầu nhập ID hợp lệ của sách để thao tác thành công.
