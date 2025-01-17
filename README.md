@@ -89,6 +89,8 @@ app.UseAuthorization();
 app.MapControllers();
 app.Run();
 
+```
+
 ### Kết quả đạt được
 
 Khi chạy dự án bằng cách nhấn **F5** hoặc chọn **Start**, ứng dụng sẽ khởi chạy trên địa chỉ mặc định được hiển thị trên trình duyệt:  
