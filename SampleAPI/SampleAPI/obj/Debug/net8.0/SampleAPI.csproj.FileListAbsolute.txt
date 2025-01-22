@@ -78,3 +78,4 @@ C:\Users\84967\Downloads\GIT CLONE HTTP\SOA_EX_3_SampleAPI\SampleAPI\SampleAPI\o
 C:\Users\84967\Downloads\GIT CLONE HTTP\SOA_EX_3_SampleAPI\SampleAPI\SampleAPI\obj\Debug\net8.0\SampleAPI.pdb
 C:\Users\84967\Downloads\GIT CLONE HTTP\SOA_EX_3_SampleAPI\SampleAPI\SampleAPI\obj\Debug\net8.0\SampleAPI.genruntimeconfig.cache
 C:\Users\84967\Downloads\GIT CLONE HTTP\SOA_EX_3_SampleAPI\SampleAPI\SampleAPI\obj\Debug\net8.0\ref\SampleAPI.dll
+C:\Users\84967\Downloads\GIT CLONE HTTP\SOA_EX_3_SampleAPI\SampleAPI\SampleAPI\obj\Debug\net8.0\SampleAPI.sourcelink.json
