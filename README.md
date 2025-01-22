@@ -90,6 +90,14 @@ app.MapControllers();
 app.Run();
 
 ```
+### 5. Cấu hình kết nối với MongoDB
+Trong appsettings.json, kết nối với MongoDB được cấu hình như sau:
+```csharp
+"BookStoreDatabase": {
+    "ConnectionString": "mongodb+srv://aritannia:aritannia@cluster0.azbm7.mongodb.net/",
+    "DatabaseName": "BookStore",
+    "BooksCollectionName": "Books"
+```    
 
 ## Kết quả đạt được
 
